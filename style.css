@@ -31,7 +31,8 @@ button {
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
-    margin-top: 1rem;
+    margin: 1rem auto 0;
+    display: block;
     transition: background 0.2s;
 }
 
@@ -45,4 +46,7 @@ button:hover {
     font-weight: bold;
     color: #0063a5;
     min-height: 1.5em;
+}
+.centrar-boton {
+    text-align: center;
 }
